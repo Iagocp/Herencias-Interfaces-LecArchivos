@@ -6,7 +6,13 @@ public abstract class Animal {
 	public String habitat;
 	public String nombreCientifico;
 	
-	public Animal() {}
+	public Animal(String sonido, String alimento, String habitat, String nombreCientifico) {
+		this.alimentos=alimento;
+		this.habitat=habitat;
+		this.nombreCientifico=nombreCientifico;
+		this.sonido=sonido;
+		
+	}
 
 	public String getSonido() {
 		return sonido;

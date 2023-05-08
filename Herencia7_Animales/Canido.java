@@ -2,8 +2,8 @@ package Herencia7_Animales;
 
 public class Canido extends Animal {
 
-	public Canido() {
-		super();
+	public Canido(String sonido, String alimento, String habitat, String nombreCientifico) {
+		super(sonido,alimento,habitat,nombreCientifico);
 		// TODO Auto-generated constructor stub
 	}
 
