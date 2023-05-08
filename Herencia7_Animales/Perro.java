@@ -2,7 +2,7 @@ package Herencia7_Animales;
 
 public class Perro extends Canido {
 
-	public Perro() {
+	public Perro(String sonido, String alimento, String habitat, String nombreCientifico) {
 		super();
 		// TODO Auto-generated constructor stub
 	}

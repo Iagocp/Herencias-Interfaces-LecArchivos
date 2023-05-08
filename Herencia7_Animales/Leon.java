@@ -2,10 +2,11 @@ package Herencia7_Animales;
 
 public class Leon extends Felino{
 
-	public Leon() {
+	public Leon(String sonido, String alimento, String habitat, String nombreCientifico) {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
 
 	@Override
 	public String toString() {
