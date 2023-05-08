@@ -1,10 +1,10 @@
 package Herencia8_Ciclismo;
 
-public class Contrarelojista extends Ciclista{
+public  class Contrarelojista extends Ciclista{
 	double velocidadMaxima;
 
-	public Contrarelojista(int id, String nombre, int tiempoAcumulado, double velocidadMaxima) {
-		super(id, nombre, tiempoAcumulado);
+	public Contrarelojista(int id, String nombre, int tiempoAcumulado, double velocidadMaxima, int posicion) {
+		super(id, nombre, tiempoAcumulado,posicion);
 		this.velocidadMaxima = velocidadMaxima;
 	}
 
@@ -19,18 +19,23 @@ public class Contrarelojista extends Ciclista{
 	}
 
 
-	@Override
-	public String toString() {
-		return "Contrarelojista [velocidadMaxima=" + velocidadMaxima + ", id=" + id + ", nombre=" + nombre
-				+ ", tiempoAcumulado=" + tiempoAcumulado + "]";
+	
+	public void getTipo() {
+		// TODO Auto-generated method stub
+		
 	}
 
 
-
-
-
-
-
-
-
+	
 }
+	
+
+
+
+
+
+
+
+
+
+

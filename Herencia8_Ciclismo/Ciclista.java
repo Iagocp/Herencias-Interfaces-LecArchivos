@@ -4,12 +4,16 @@ public abstract class Ciclista {
 	int id;
 	String nombre;
 	int tiempoAcumulado=0;
-	public Ciclista(int id, String nombre, int tiempoAcumulado) {
+	int posicion;
+	public Ciclista(int id, String nombre, int tiempoAcumulado,int posicion ) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
 		this.tiempoAcumulado = tiempoAcumulado;
+		this.posicion=posicion;
 	}
+	public abstract void getTipo();
+
 	public int getId() {
 		return id;
 	}
@@ -22,6 +26,13 @@ public abstract class Ciclista {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
+	public int getPosicion() {
+		return posicion;
+	}
+	public void setPosicion(int posicion) {
+		this.posicion = posicion;
+	}
 	public int getTiempoAcumulado() {
 		return tiempoAcumulado;
 	}
@@ -30,8 +41,10 @@ public abstract class Ciclista {
 	}
 	@Override
 	public String toString() {
-		return "Ciclista [id=" + id + ", nombre=" + nombre + ", tiempoAcumulado=" + tiempoAcumulado + "]";
+		return "Ciclista [id=" + id + ", nombre=" + nombre + ", tiempoAcumulado=" + tiempoAcumulado + ", posicion="
+				+ posicion + "]";
 	}
+	
 
 	
 	
