@@ -1,4 +1,4 @@
-package Intrfz_Mamiferos;
+package Herencia9_Animales;
 
 public class Ornitorrinco extends Mamifero implements Oviparo{
 

@@ -1,4 +1,4 @@
-package CarreraCiclista2;
+package Herencia8_Ciclismo;
 
 public class Escalador extends Ciclista{
 	protected double aceleracionPromedio;

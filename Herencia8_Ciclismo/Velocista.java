@@ -1,4 +1,4 @@
-package CarreraCiclista2;
+package Herencia8_Ciclismo;
 
 public class Velocista extends Ciclista {
 public Velocista(int identificador, String nombre,  double pp, double vp) {

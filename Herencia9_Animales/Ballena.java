@@ -1,4 +1,4 @@
-package Intrfz_Mamiferos;
+package Herencia9_Animales;
 
 public class Ballena extends Mamifero{
 

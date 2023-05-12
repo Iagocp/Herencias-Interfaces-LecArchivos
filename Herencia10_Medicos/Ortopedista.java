@@ -1,11 +1,11 @@
 package Herencia10_Medicos;
 
-public class Pediatra extends Medico{
+public class Ortopedista extends Medico{
 
-	public enum Tipologia {NEUROLOGO, PSICOLOGO};
+	public enum Tipologia {MAXILOFACIAL, PEDIATRA};
 	private Tipologia tipo;
 
-	public Pediatra(String nombre, Tipologia tipo) {
+	public Ortopedista(String nombre, Tipologia tipo) {
 		super(nombre);
 		this.tipo=tipo;
 	}

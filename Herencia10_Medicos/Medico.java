@@ -1,4 +1,4 @@
-package Medicina;
+package Herencia10_Medicos;
 
 public class Medico {
 
