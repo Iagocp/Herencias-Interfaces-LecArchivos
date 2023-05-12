@@ -1,41 +1,32 @@
-package Herencia8_Ciclismo;
+package CarreraCiclista2;
 
 public class Velocista extends Ciclista {
-	double potenciaPromedio;
-	double velocidapromedio;
-
-	public Velocista(int id, String nombre, int tiempoAcumulado, int potenciaPromedio, int velocidadPromedio,
-			int posicion) {
-		super(id, nombre, tiempoAcumulado, posicion);
+public Velocista(int identificador, String nombre,  double pp, double vp) {
+		super(identificador, nombre);
 		// TODO Auto-generated constructor stub
+		this.PotenciaPromedio=pp;
+		this.velocidadPromedio=vp;
 	}
-
-	public double getPotenciaPromedio() {
-		return potenciaPromedio;
-	}
-
-	public void setPotenciaPromedio(double potenciaPromedio) {
-		this.potenciaPromedio = potenciaPromedio;
-	}
-
-	public double getVelocidapromedio() {
-		return velocidapromedio;
-	}
-
-	public void setVelocidapromedio(double velocidapromedio) {
-		this.velocidapromedio = velocidapromedio;
-	}
+public double getPotenciaPromedio() {
+	return PotenciaPromedio;
+}
+public void setPotenciaPromedio(double potenciaPromedio) {
+	PotenciaPromedio = potenciaPromedio;
+}
+public double getVelocidadPromedio() {
+	return velocidadPromedio;
+}
+public void setVelocidadPromedio(double velocidadPromedio) {
+	this.velocidadPromedio = velocidadPromedio;
+}
+private double PotenciaPromedio=0;
+private double velocidadPromedio = 0;
+@Override
+public String toString() {
+	return "Velocista [PotenciaPromedio=" + PotenciaPromedio + ", velocidadPromedio=" + velocidadPromedio
+			+ ", identificador=" + identificador + ", nombre=" + nombre + ", tiempoAcumulado=" + tiempoAcumulado
+			+ ", posicionGeneral=" + posicionGeneral + "]";
+}
 	
-
-	@Override
-	public String toString() {
-		return "Velocista [potenciaPromedio=" + potenciaPromedio + ", velocidapromedio=" + velocidapromedio + ", id="
-				+ id + ", nombre=" + nombre + ", tiempoAcumulado=" + tiempoAcumulado + ", posicion=" + posicion + "]";
-	}
-
-	public void getTipo() {
-		// TODO Auto-generated method stub
-
-	}
 
 }

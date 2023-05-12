@@ -1,42 +1,33 @@
-package Herencia8_Ciclismo;
+package CarreraCiclista2;
 
-public class Escalador extends Ciclista {
-	double aclereracionPromedio;
-	double gradoRampa;
-
-	public Escalador(int id, String nombre, int tiempoAcumulado, double aclereracionPromedio, double gradoRampa,
-			int posicion) {
-		super(id, nombre, tiempoAcumulado, posicion);
-		this.aclereracionPromedio = aclereracionPromedio;
+public class Escalador extends Ciclista{
+	protected double aceleracionPromedio;
+	protected double gradoRampa;
+	public Escalador(int identificador, String nombre, 
+			double aceleracionPromedio, double gradoRampa) {
+		super(identificador, nombre);
+		this.aceleracionPromedio = aceleracionPromedio;
 		this.gradoRampa = gradoRampa;
 	}
-
-	public double getAclereracionPromedio() {
-		return aclereracionPromedio;
+	public double getAceleracionPromedio() {
+		return aceleracionPromedio;
 	}
-
-	public void setAclereracionPromedio(double aclereracionPromedio) {
-		this.aclereracionPromedio = aclereracionPromedio;
+	public void setAceleracionPromedio(double aceleracionPromedio) {
+		this.aceleracionPromedio = aceleracionPromedio;
 	}
-
 	public double getGradoRampa() {
 		return gradoRampa;
 	}
-
 	public void setGradoRampa(double gradoRampa) {
 		this.gradoRampa = gradoRampa;
 	}
-	
-
 	@Override
 	public String toString() {
-		return "Escalador [aclereracionPromedio=" + aclereracionPromedio + ", gradoRampa=" + gradoRampa + ", id=" + id
-				+ ", nombre=" + nombre + ", tiempoAcumulado=" + tiempoAcumulado + ", posicion=" + posicion + "]";
+		return "Escalador [aceleracionPromedio=" + aceleracionPromedio + ", gradoRampa=" + gradoRampa
+				+ ", identificador=" + identificador + ", nombre=" + nombre + ", tiempoAcumulado=" + tiempoAcumulado
+				+ ", posicionGeneral=" + posicionGeneral + "]";
 	}
-
-	public void getTipo() {
-		// TODO Auto-generated method stub
-
-	}
-
+	
+	
+	
 }

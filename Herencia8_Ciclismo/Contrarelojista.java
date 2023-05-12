@@ -20,7 +20,8 @@ public  class Contrarelojista extends Ciclista{
 
 
 	
-	public void getTipo() {
+	public String getTipo() {
+		return "Contrarelojista";
 		// TODO Auto-generated method stub
 		
 	}
@@ -29,7 +30,6 @@ public  class Contrarelojista extends Ciclista{
 	
 }
 	
-
 
 
 
