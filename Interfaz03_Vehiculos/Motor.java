@@ -1,5 +1,7 @@
 package Interfaz03_Vehiculos;
 
-public class Motor {
+public interface Motor {
 
+	
+	public int calcularRevolucionesMotor(int fuerza, int radio) ;
 }

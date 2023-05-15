@@ -28,7 +28,7 @@ public class Test {
 		ptm.setJuegosLocal(6);
 		ptm.setJuegosVisitante(2);
 
-		System.out.println(ptm.toString());
+		System.out.println(ptm.toString());	
 
 }
 }
