@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 public class LeerArchivo {
 	public static void main(String[] args) throws Exception {
-		String nombreArchivo = "C:\\Users\\Primero DAM\\Documents\\Iago Centeno\\1.txt";
+		String nombreArchivo = "C:\\Users\\Primero DAM\\Documents\\Iago Centeno\\Programación\\eclipse-workspace\\3aEvaluacion\\src\\LecturaArchivo\\hola.txt";
 		
 		FileInputStream archivo;
 		InputStreamReader conversor;
