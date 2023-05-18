@@ -5,6 +5,11 @@ import java.util.ArrayList;
 public class ListaPersonas {
 	ArrayList<Persona>ListaPersonas;
 	
+	
+	public ListaPersonas(ArrayList<Persona> listaPersonas) {
+		super();
+		ListaPersonas = listaPersonas;
+	}
 	public ListaPersonas() {
 		ListaPersonas = new ArrayList<>();
 	}
