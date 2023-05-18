@@ -11,9 +11,14 @@ public class testConsola {
 		alumnos.añadirPersona(new Persona("Chiquito","Comorl","698523698","Hector Del Mar nº21"));
 		alumnos.listar();
 		
-		alumnos.eliminarPersona(3);
+		alumnos.eliminarPersona(4);
+		alumnos.listar();
+		alumnos.eliminarPersona(1);
 		alumnos.listar();
 		
+		
+		alumnos.borrarLista();
+		System.out.println("Lista borrada");
 		
 		
 	}

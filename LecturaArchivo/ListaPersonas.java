@@ -18,7 +18,10 @@ public void añadirPersona(Persona p) {
 }
 
 public void eliminarPersona(int i) {
-	ListaPersonas.remove(i);
+	if(i<ListaPersonas.size())
+		ListaPersonas.remove(i);
+	else 
+		System.out.println("Indice erroneo");
 }
 public void borrarLista() {
 	ListaPersonas.removeAll(ListaPersonas);
