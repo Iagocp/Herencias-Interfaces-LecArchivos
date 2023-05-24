@@ -1,6 +1,9 @@
 package LecturaArchivo;
 
-public class Persona  {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Persona  implements Serializable {
 	String nombre;
 	String apellidos;
 	String telefono;

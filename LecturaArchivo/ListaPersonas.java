@@ -2,7 +2,7 @@ package LecturaArchivo;
 
 import java.util.ArrayList;
 
-public class ListaPersonas {
+public class ListaPersonas  {
 	ArrayList<Persona>ListaPersonas;
 	
 	
@@ -17,6 +17,13 @@ public void añadirPersona(Persona p) {
 	ListaPersonas.add(p);
 }
 
+
+public ArrayList<Persona> getListaPersonas() {
+	return ListaPersonas;
+}
+public void setListaPersonas(ArrayList<Persona> listaPersonas) {
+	ListaPersonas = listaPersonas;
+}
 public void eliminarPersona(int i) {
 	if(i<ListaPersonas.size())
 		ListaPersonas.remove(i);
